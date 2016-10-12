@@ -1,0 +1,24 @@
+body {
+	background-color: #03FC80;
+}
+#layout {
+
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#header {
+	height: 60px;
+	background-color: #FC0303;
+	color: white;
+	text-align: center;
+	border-style: solid;
+    border-color: red;
+	border-radius: 25px;
+}
+#JS {
+	background-color: blue;
+	width: 600px;
+	border-radius: 25px;
+}

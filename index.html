@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<Title>
+Div
+</Title>
+
+<head>
+<link rel = "stylesheet" type = "text/css" href = "divstyle.css" />
+</head>
+
+<body>
+	<div id ="layout">
+		<div id = "header">
+			<h2>
+			Click around to find secrets
+			</h2>
+		</div>
+		<div id = "JS">
+			<script>
+			
+			var input = "yes";
+			 if(input === "yes"){ 
+				document.write("it really is");
+			}
+			document.getElementById("header").onclick = function() {myFunction()};
+			function myFunction() {
+				document.getElementById("header").innerHTML = "Secret #1 found";
+			}
+
+			</script>
+		</div>
+	</div>
+<body>
+
+</html>
