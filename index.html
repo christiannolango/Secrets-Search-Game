@@ -21,15 +21,29 @@ Div
 			
 			var input = "yes";
 			 if(input === "yes"){ 
-				document.write("it really is");
+				document.write("there might be a secret here");
 			}
 			document.getElementById("header").onclick = function() {myFunction()};
 			function myFunction() {
 				document.getElementById("header").innerHTML = "Secret #1 found";
 			}
+			document.getElementById("JS").onclick = function() {myFunction2()};
+			function myFunction2() {
+				document.getElementById("JS").innerHTML = "Secret #2 found";
+			}
 
 			</script>
 		</div>
+		<div id = "body">
+			<script>
+			document.getElementById("body").onclick = function() {myFunction3()};
+			function myFunction3() {
+				document.getElementById("body").innerHTML = "Secret #3 found, why don't you trust me anymore";
+			}
+			</script>
+			<p>
+			Do not click here, there are no secrets in this section
+			</p>
 	</div>
 <body>
 
